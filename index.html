@@ -189,5 +189,5 @@ var graphRec = JSON.parse(JSON.stringify(graph)); //Add this line
 </script>
 
 <form>
-    <h3> Link threshold 0 <input type="range" id="thersholdSlider" name="points" value = 0 min="0" max="10" onchange="threshold(this.value)"> 10 </h3>
+    <h3> Link threshold 0 <input type="range" id="thersholdSlider" name="points" value = 0 min="0" max="10" oninput="threshold(this.value)"> 10 </h3>
 </form>
